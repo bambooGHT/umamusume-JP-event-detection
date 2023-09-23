@@ -262,7 +262,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -276,7 +276,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -290,7 +290,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -660,7 +660,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -674,7 +674,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -688,7 +688,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -1050,7 +1050,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -1064,7 +1064,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -1078,7 +1078,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -1468,7 +1468,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -1482,7 +1482,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -1496,7 +1496,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -1848,7 +1848,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -1862,7 +1862,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -1876,7 +1876,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -2238,7 +2238,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -2252,7 +2252,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -2266,7 +2266,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -2618,7 +2618,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -2632,7 +2632,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -2646,7 +2646,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -3022,7 +3022,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -3036,7 +3036,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -3050,7 +3050,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -3384,7 +3384,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -3398,7 +3398,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -3412,7 +3412,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -3820,7 +3820,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -3834,7 +3834,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -3848,7 +3848,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -4182,7 +4182,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -4196,7 +4196,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -4210,7 +4210,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -4572,7 +4572,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -4586,7 +4586,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -4600,7 +4600,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -4948,7 +4948,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -4962,7 +4962,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -4976,7 +4976,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -5310,7 +5310,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -5324,7 +5324,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -5338,7 +5338,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -5714,7 +5714,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -5728,7 +5728,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -5742,7 +5742,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -6076,7 +6076,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -6090,7 +6090,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -6104,7 +6104,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -6484,7 +6484,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -6498,7 +6498,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -6512,7 +6512,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -6828,7 +6828,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -6842,7 +6842,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -6856,7 +6856,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -7208,7 +7208,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -7222,7 +7222,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -7236,7 +7236,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -7552,7 +7552,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -7566,7 +7566,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -7580,7 +7580,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -7950,7 +7950,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -7964,7 +7964,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -7978,7 +7978,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -8312,7 +8312,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -8326,7 +8326,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -8340,7 +8340,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -8692,7 +8692,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -8706,7 +8706,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -8720,7 +8720,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -9054,7 +9054,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -9082,7 +9082,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -9096,7 +9096,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -9110,7 +9110,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -9124,7 +9124,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -9532,7 +9532,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -9546,7 +9546,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -9560,7 +9560,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -9894,7 +9894,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -9908,7 +9908,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -9922,7 +9922,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -10270,7 +10270,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -10284,7 +10284,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -10298,7 +10298,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -10632,7 +10632,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -10646,7 +10646,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -10660,7 +10660,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -11022,7 +11022,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -11036,7 +11036,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -11050,7 +11050,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -11402,7 +11402,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -11416,7 +11416,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -11430,7 +11430,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -11764,7 +11764,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -11778,7 +11778,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -11792,7 +11792,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -12144,7 +12144,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -12158,7 +12158,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -12172,7 +12172,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -12460,7 +12460,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -12922,7 +12922,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -13256,7 +13256,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -13270,7 +13270,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -13284,7 +13284,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -13688,7 +13688,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -13702,7 +13702,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -13716,7 +13716,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -14318,7 +14318,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -14332,7 +14332,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -14346,7 +14346,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -14792,7 +14792,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -14806,7 +14806,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -14820,7 +14820,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -15168,7 +15168,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -15182,7 +15182,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -15196,7 +15196,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -15460,7 +15460,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -15474,7 +15474,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -15488,7 +15488,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -16306,7 +16306,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -16320,7 +16320,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -16334,7 +16334,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -16792,7 +16792,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -16806,7 +16806,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -16820,7 +16820,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -17144,7 +17144,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -17158,7 +17158,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -17172,7 +17172,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -17562,7 +17562,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -17576,7 +17576,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -17590,7 +17590,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -17956,7 +17956,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -17970,7 +17970,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -17984,7 +17984,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -18294,7 +18294,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -18308,7 +18308,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -18322,7 +18322,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -18796,7 +18796,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -18810,7 +18810,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -18824,7 +18824,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -19116,7 +19116,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -19130,7 +19130,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -19144,7 +19144,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -19514,7 +19514,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -19528,7 +19528,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -19542,7 +19542,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -19834,7 +19834,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -19848,7 +19848,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -19862,7 +19862,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -20642,7 +20642,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -20656,7 +20656,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -20670,7 +20670,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -21492,7 +21492,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -21506,7 +21506,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -21520,7 +21520,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -22248,7 +22248,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -22262,7 +22262,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -22276,7 +22276,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -22610,7 +22610,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -22624,7 +22624,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -22638,7 +22638,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -22914,7 +22914,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -22928,7 +22928,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -22942,7 +22942,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -23304,7 +23304,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -23318,7 +23318,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -23332,7 +23332,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -23722,7 +23722,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -23736,7 +23736,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -23750,7 +23750,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -24042,7 +24042,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -24056,7 +24056,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -24070,7 +24070,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -24362,7 +24362,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -24376,7 +24376,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -24390,7 +24390,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -24738,7 +24738,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -24752,7 +24752,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -24766,7 +24766,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -25100,7 +25100,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -25114,7 +25114,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -25128,7 +25128,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -25424,7 +25424,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -25438,7 +25438,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -25452,7 +25452,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -25808,7 +25808,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -25822,7 +25822,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -25836,7 +25836,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -26188,7 +26188,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -26202,7 +26202,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -26216,7 +26216,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -26550,7 +26550,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -26564,7 +26564,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -26578,7 +26578,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -26894,7 +26894,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -26908,7 +26908,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -26922,7 +26922,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -28006,7 +28006,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -28020,7 +28020,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -28034,7 +28034,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -28340,7 +28340,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -28354,7 +28354,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -28368,7 +28368,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -28730,7 +28730,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -28744,7 +28744,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -28758,7 +28758,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -29116,7 +29116,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -29130,7 +29130,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -29144,7 +29144,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -29510,7 +29510,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -29524,7 +29524,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -29538,7 +29538,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -29806,7 +29806,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -29820,7 +29820,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -29834,7 +29834,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -30182,7 +30182,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -30196,7 +30196,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -30210,7 +30210,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -30614,7 +30614,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -30628,7 +30628,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -30642,7 +30642,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -30918,7 +30918,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -30932,7 +30932,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -30946,7 +30946,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -31270,7 +31270,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -31284,7 +31284,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -31298,7 +31298,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -31632,7 +31632,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -31646,7 +31646,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -31660,7 +31660,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -32078,7 +32078,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -32092,7 +32092,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -32106,7 +32106,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -32778,7 +32778,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -32792,7 +32792,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -32806,7 +32806,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -33178,7 +33178,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -33192,7 +33192,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -33206,7 +33206,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -33624,7 +33624,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -33638,7 +33638,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -33652,7 +33652,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -34102,7 +34102,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -34116,7 +34116,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -34130,7 +34130,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -34440,7 +34440,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -34454,7 +34454,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -34468,7 +34468,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -34816,7 +34816,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -34830,7 +34830,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -34844,7 +34844,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -35248,7 +35248,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -35578,7 +35578,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -35592,7 +35592,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -35606,7 +35606,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -35980,7 +35980,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -35994,7 +35994,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -36008,7 +36008,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -36280,7 +36280,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -36294,7 +36294,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -36308,7 +36308,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -36642,7 +36642,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -36656,7 +36656,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -36670,7 +36670,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -37130,7 +37130,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -37144,7 +37144,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -37158,7 +37158,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -37408,7 +37408,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -37422,7 +37422,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -37436,7 +37436,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -37786,7 +37786,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -37800,7 +37800,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -37814,7 +37814,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -38148,7 +38148,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -38162,7 +38162,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -38176,7 +38176,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -38538,7 +38538,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -38552,7 +38552,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -38566,7 +38566,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -38936,7 +38936,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -38950,7 +38950,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -38964,7 +38964,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -39330,7 +39330,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -39344,7 +39344,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -39358,7 +39358,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -39706,7 +39706,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -39720,7 +39720,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -39734,7 +39734,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -40124,7 +40124,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -40138,7 +40138,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -40152,7 +40152,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -40500,7 +40500,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -40514,7 +40514,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -40528,7 +40528,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -40810,7 +40810,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -40824,7 +40824,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -40838,7 +40838,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -41264,7 +41264,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -41546,7 +41546,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -41560,7 +41560,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -41574,7 +41574,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -41862,7 +41862,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -41876,7 +41876,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -41890,7 +41890,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -42214,7 +42214,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -42228,7 +42228,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -42242,7 +42242,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -42576,7 +42576,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -42590,7 +42590,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -42604,7 +42604,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -42956,7 +42956,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -42970,7 +42970,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -42984,7 +42984,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -43328,7 +43328,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -43342,7 +43342,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -43356,7 +43356,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -43642,7 +43642,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -43656,7 +43656,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -43670,7 +43670,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -44018,7 +44018,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -44032,7 +44032,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -44046,7 +44046,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -44394,7 +44394,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -44408,7 +44408,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -44422,7 +44422,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -44770,7 +44770,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -44784,7 +44784,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -44798,7 +44798,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -45150,7 +45150,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -45164,7 +45164,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -45178,7 +45178,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -45544,7 +45544,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -45558,7 +45558,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -45572,7 +45572,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -45934,7 +45934,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -45948,7 +45948,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -45962,7 +45962,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -46286,7 +46286,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -46300,7 +46300,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -46314,7 +46314,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -46648,7 +46648,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -46662,7 +46662,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -46676,7 +46676,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -47038,7 +47038,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -47052,7 +47052,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -47066,7 +47066,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -47330,7 +47330,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -47344,7 +47344,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -47358,7 +47358,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -47692,7 +47692,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -47706,7 +47706,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -47720,7 +47720,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -48072,7 +48072,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -48406,7 +48406,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -48420,7 +48420,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -48434,7 +48434,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -48754,7 +48754,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -48768,7 +48768,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -48782,7 +48782,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -49116,7 +49116,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -49130,7 +49130,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -49144,7 +49144,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -49492,7 +49492,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -49506,7 +49506,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -49520,7 +49520,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -49928,7 +49928,7 @@ export const umamusumeData = {
         "originalName": "デカい背中(その日を信じて)"
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -49942,7 +49942,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -49956,7 +49956,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -50206,7 +50206,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -50220,7 +50220,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -50234,7 +50234,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -50586,7 +50586,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -50600,7 +50600,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -50614,7 +50614,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -51004,7 +51004,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -51018,7 +51018,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -51032,7 +51032,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -51384,7 +51384,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -51398,7 +51398,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -51412,7 +51412,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -51730,7 +51730,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -51744,7 +51744,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -51758,7 +51758,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -52204,7 +52204,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -52218,7 +52218,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -52232,7 +52232,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -52494,7 +52494,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -52508,7 +52508,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -52522,7 +52522,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -52856,7 +52856,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース勝利！(1着)",
+        "name": "レース勝利！",
         "filterName": "レース",
         "choices": [
           {
@@ -52870,7 +52870,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース入着(2~5着)",
+        "name": "レース入着",
         "filterName": "レース",
         "choices": [
           {
@@ -52884,7 +52884,7 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "レース敗北(6着以下)",
+        "name": "レース敗北",
         "filterName": "レース",
         "choices": [
           {
@@ -66194,5 +66194,6 @@ export const umamusumeData = {
         }
       ]
     }
-  ]
+  ],
+  "latestUpdateed": "2023.09.23"
 }

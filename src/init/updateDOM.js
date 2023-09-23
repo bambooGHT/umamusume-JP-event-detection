@@ -12,6 +12,8 @@ export const initUpdateDOM = () => {
   effect(updateRecogniTextDOM());
   effect(updateCorrectEventListDOM());
   addCorrectEventDOM();
+
+  document.getElementById("latestUpdateed").innerText = `latest updateed ${eventData.latestUpdateed}`;
 };
 
 const addCorrectEventDOM = () => {

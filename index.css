@@ -12,6 +12,7 @@ body {
   font-size: 13px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   font-family: メイリオ, Meiryo, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, ＭＳ Ｐゴシック, MS P Gothic, sans-serif;
   overflow-x: hidden;

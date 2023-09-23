@@ -23,8 +23,7 @@ export const getEventAndSkillData = (value) => {
     return { text: "", data: {} };
   }
 
-  if (oldData.text === text ||
-    countCommonCharacters(oldData.text, text) >= oldData.text?.length - 1) {
+  if (oldData.text === text) {
     return oldData;
   }
 
@@ -51,10 +50,12 @@ export const getEventAndSkillData = (value) => {
  * @param { string } text
  */
 const findCorrectedEvent = (key, text) => {
-  const [value, id] = correctEvent.correctList.find(([v]) => {
+  const value = correctEvent.correctList.find(([v]) => {
     return text === v || countCommonCharacters(v, text) >= v.length - 1;
   });
-  return eventData[key].find(p => p.name === id);
+
+  if (!value) return undefined;
+  return eventData[key].find(p => p.name === value[1]);
 };
 
 /**
@@ -85,7 +86,7 @@ const findEvent = (key, text) => {
     if (filterNameLen > 3 && filterName === item.filterName) return item;
 
     const count = countCommonCharacters(item.name, text);
-    if (count > value.len && count > 3 && Math.abs(count - item.name.length) <= 3) {
+    if (count > value.len && count > 3 && count > Math.ceil(item.name.length / 2)) {
       value.len = count;
       value.data = item;
     }

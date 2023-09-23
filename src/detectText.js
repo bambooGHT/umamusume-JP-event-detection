@@ -69,8 +69,8 @@ export class DetectText {
     const context = canvas.getContext("2d", { willReadFrequently: true });
     const { videoWidth: width, videoHeight: height } = videoElement;
     const rgbValue = width * 0.355;
-    const width1 = width + 60;
-    const height1 = 160;
+    const width1 = width + 75;
+    const height1 = 180;
     const vWidth = width * 2.3;
     const vHeight = height * 2.2;
     const sx = width / 10 * 1.5;

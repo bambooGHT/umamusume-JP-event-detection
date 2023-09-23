@@ -10,9 +10,10 @@ import { createProxy } from "./proxy.js";
  */
 /** 
  * @typedef {{
- * character: EventType,
- * support: EventType,
- * main: EventType
+ * character: EventType;
+ * support: EventType;
+ * main: EventType;
+ * latestUpdateed: number
  * }} EventData
  */
 
@@ -20,7 +21,8 @@ import { createProxy } from "./proxy.js";
 export const eventData = {
   character: undefined,
   support: [...new Set(umamusumeData.support)],
-  main: umamusumeData.main
+  main: umamusumeData.main,
+  latestUpdateed: umamusumeData.latestUpdateed
 };
 /** @type {{value:typeof characters[0];hidden:HiddenEvent}} */
 export const character = createProxy({
