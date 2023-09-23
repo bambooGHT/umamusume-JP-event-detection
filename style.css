@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+small {
+  font-size: 12px;
+}
+
+ul,
+ol,
+nav {
+  list-style: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: #000;
+}
+
+i {
+  font-style: normal;
+}
+
+/* img {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+  -webkit-font-smooting: antialiased;
+} */
+
+
+body {
+  font-family: system-ui, "Microsoft YaHei", "Heiti SC", tahoma, arial,
+    Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+  line-height: 1.4;
+}

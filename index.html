@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>umamusume event</title>
+  <script src='https://cdn.jsdelivr.net/npm/tesseract.js@4/dist/tesseract.min.js'></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body style="display: none;">
+  <div id="event" style="width: 450px;">
+    <div class="box">
+      <div class="box-select">
+        <div>
+          <input type="checkbox" id="select-umamusume">
+          <label for="select-umamusume" class="select">umamusume</label>
+          <ul class="umamusume-list">
+          </ul>
+        </div>
+        <div id="selectWindow" class="select">select window</div>
+        <div id="detect" class="select">detect</div>
+        <select id="interval">
+          <option value="500">0.5s</option>
+          <option value="600">0.6s</option>
+          <option value="700">0.7s</option>
+          <option value="800">0.8s</option>
+          <option value="900">0.9s</option>
+          <option value="1000">1s</option>
+          <option value="1500">1.5s</option>
+          <option value="2000">2s</option>
+        </select>
+        <p id="load">loading</p>
+      </div>
+    </div>
+    <div class="box current-character">
+      <input type="checkbox" id="character-info">
+      <label for="character-info" id="characterInfo">
+      </label>
+      <ul class="skill-info1 character-info">
+      </ul>
+      <input type="checkbox" id="correct-event">
+      <label for="correct-event" class="select">correct event</label>
+      <div class="correct-event-data">
+        <div class="recognize-text">
+          <p>recognition text:<span style="color: red;"></span></p>
+          <input type="search" id="correctEventName" placeholder="search event name" maxlength="20">
+          <button id="addCorrectEvent">add</button>
+          <ul class="search-list"></ul>
+        </div>
+        <ul class="correct-event-list"></ul>
+      </div>
+    </div>
+    <div class="split-line">
+      <i></i>
+      <p>event</p>
+      <i></i>
+    </div>
+    <p class="event-name">event name</p>
+    <ul class="event" id="eventChoices">
+    </ul>
+    <div class="modify-width">|</div>
+  </div>
+  <ul class="skills">
+    <div class="split-line">
+      <i></i>
+      <p>skill (click show details)</p>
+      <i></i>
+    </div>
+  </ul>
+</body>
+
+<script type="module" src="./index.js"></script>
+
+</html>
