@@ -69,15 +69,15 @@ export class DetectText {
     const context = canvas.getContext("2d", { willReadFrequently: true });
     const { videoWidth: width, videoHeight: height } = videoElement;
     const rgbValue = width * 0.355;
-    const width1 = width + 80;
-    const height1 = 185;
-    const vWidth = width * 2.3;
-    const vHeight = height * 2.2;
+    const width1 = width + 100;
+    const height1 = 200;
+    const vWidth = width * 2.25;
+    const vHeight = height * 2.15;
     const sx = width / 10 * 1.5;
     const sy = (height - 35) / 10 * 1.86;
     canvas.width = width1;
     canvas.height = height1;
-    // document.getElementById("event").appendChild(canvas);
+    document.getElementById("event").appendChild(canvas);
 
     const drawImage = () => {
       context.clearRect(0, 0, width1, height1);
@@ -110,8 +110,8 @@ export class DetectText {
       langPath: "https://raw.githubusercontent.com/naptha/tessdata/gh-pages/4.0.0_best"
     });
 
-    await worker.loadLanguage("jpn+eng");
-    await worker.initialize("jpn+eng");
+    await worker.loadLanguage("jpn");
+    await worker.initialize("jpn");
 
     return worker;
   };
