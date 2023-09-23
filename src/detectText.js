@@ -77,7 +77,7 @@ export class DetectText {
     const sy = (height - 35) / 10 * 1.86;
     canvas.width = width1;
     canvas.height = height1;
-    document.getElementById("event").appendChild(canvas);
+    // document.getElementById("event").appendChild(canvas);
 
     const drawImage = () => {
       context.clearRect(0, 0, width1, height1);
