@@ -18,29 +18,31 @@ const oldData = {
  */
 export const getEventAndSkillData = (value) => {
   const [key, text] = formatText(value);
+
   if (!key || !text) {
     return { text: "", data: {} };
   }
 
-  if (oldData.text === text) {
+  if (oldData.text === text ||
+    (oldData.text.length > 3 && countCommonCharacters(oldData.text, text) >= oldData.text.length - 1)) {
     return oldData;
   }
-
-  console.log(`
-  key:   ${key}
-  value: ${text}
-  `);
 
   const event = findCorrectedEvent(key, text) || findEvent(key, text);
 
   if (event) {
     const skills = extractEventSkills(event);
+    oldData.text = text;
     oldData.data = { event, skills };
+    console.log(`
+    key:   ${key}
+    value: ${text}
+    `);
   } else {
     oldData.data = {};
   }
-  oldData.text = text;
 
+  oldData.text = text;
   return oldData;
 };
 
@@ -84,7 +86,7 @@ const findEvent = (key, text) => {
     if (text === item.name) return item;
 
     const count = countCommonCharacters(item.name, text);
-    if (count > data.len && count >= Math.floor(item.name.length / 2)) {
+    if (count > data.len && count >= Math.ceil(item.nameLength / 2)) {
       if (data.isGt) return item;
       data.len = count;
       data.value = item;

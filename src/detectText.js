@@ -88,7 +88,7 @@ export class DetectText {
       const data = imageData.data;
       for (let i = 0; i < data.length; i += 4) {
         const grayscale = (data[i] + data[i + 1] + data[i + 2]) / 3;
-        const binaryValue = (255 - grayscale) * 5.7;
+        const binaryValue = (255 - grayscale) * 5.5;
         data[i] = binaryValue;
         data[i + 1] = binaryValue;
         data[i + 2] = binaryValue;
@@ -109,8 +109,8 @@ export class DetectText {
       langPath: "http://tessdata.projectnaptha.com/4.0.0"
     });
 
-    await worker.loadLanguage("jpn");
-    await worker.initialize("jpn");
+    await worker.loadLanguage("jpn+eng");
+    await worker.initialize("jpn+eng");
 
     return worker;
   };
