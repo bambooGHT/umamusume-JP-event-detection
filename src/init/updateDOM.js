@@ -154,9 +154,9 @@ const updateEventChoicesAndSkillDOM = () => {
   /** @type {HTMLUListElement} */
   const skill = document.querySelector(".skills");
   return () => {
-    eventName.innerText = eventAndSkillData.event?.originalName || eventAndSkillData.event?.name || "";
-
-    eventChoices.innerHTML = eventAndSkillData.event?.choices.reduce((result, value) => {
+    const event = eventAndSkillData.event || {};
+    eventName.innerText = event.originalName || event.name || "";
+    eventChoices.innerHTML = event.choices?.reduce((result, value) => {
       result += `
       <li>
         <div class="branch">${value.n}</div>
@@ -166,7 +166,6 @@ const updateEventChoicesAndSkillDOM = () => {
       return result;
     }, "") ?? "";
     skill.innerHTML = createSkillDOM(eventAndSkillData.skills);
-
   };
 };
 
@@ -177,7 +176,9 @@ const updateEventChoicesAndSkillDOM = () => {
 const createSkillDOM = (skills) => {
   const text = `
   <div class="split-line"> <i></i> <p>skill (click show details)</p> <i></i> </div>`;
-  return skills?.[0] ? text + `
+  if (!skills?.[0]) return text;
+
+  return text + `
   ${skills.reduce((result, skill) => (result += `
   <li>
     <div class="skill" tabindex="-1">
@@ -197,7 +198,7 @@ const createSkillDOM = (skills) => {
     ${createSkillInfo(skill)}
     </ul>
   </li>`, result), "")}
-  `: text;
+  `;
 };
 /** @param {Skills[0]} skill */
 const createSkillInfo = (skill) => {

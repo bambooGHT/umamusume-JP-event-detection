@@ -27,8 +27,8 @@ export class DetectText {
       const image = URL.createObjectURL(await getImg());
       const { data: { text } } = await tesseractWorker.recognize(image);
 
-      URL.revokeObjectURL(image);
       callback(text.replaceAll(" ", ""));
+      URL.revokeObjectURL(image);
     };
   }
 
@@ -68,13 +68,12 @@ export class DetectText {
     const canvas = document.createElement("canvas");
     const context = canvas.getContext("2d", { willReadFrequently: true });
     const { videoWidth: width, videoHeight: height } = videoElement;
-    const rgbValue = width * 0.355;
-    const width1 = width + 100;
+    const width1 = width + 90;
     const height1 = 200;
     const vWidth = width * 2.25;
     const vHeight = height * 2.15;
     const sx = width / 10 * 1.5;
-    const sy = (height - 35) / 10 * 1.86;
+    const sy = (height - 35) / 10 * 1.84;
     canvas.width = width1;
     canvas.height = height1;
     // document.getElementById("event").appendChild(canvas);
@@ -89,7 +88,7 @@ export class DetectText {
       const data = imageData.data;
       for (let i = 0; i < data.length; i += 4) {
         const grayscale = (data[i] + data[i + 1] + data[i + 2]) / 3;
-        const binaryValue = grayscale > rgbValue ? 255 : 0;
+        const binaryValue = (255 - grayscale) * 5.7;
         data[i] = binaryValue;
         data[i + 1] = binaryValue;
         data[i + 2] = binaryValue;
@@ -107,7 +106,7 @@ export class DetectText {
   async _getWorker() {
     const { createWorker } = Tesseract;
     const worker = await createWorker({
-      langPath: "https://raw.githubusercontent.com/naptha/tessdata/gh-pages/4.0.0_best"
+      langPath: "http://tessdata.projectnaptha.com/4.0.0"
     });
 
     await worker.loadLanguage("jpn");

@@ -18,7 +18,6 @@ const oldData = {
  */
 export const getEventAndSkillData = (value) => {
   const [key, text] = formatText(value);
-
   if (!key || !text) {
     return { text: "", data: {} };
   }
@@ -40,8 +39,8 @@ export const getEventAndSkillData = (value) => {
   } else {
     oldData.data = {};
   }
-
   oldData.text = text;
+
   return oldData;
 };
 
@@ -78,21 +77,22 @@ const extractEventSkills = (event) => {
  * @param { string } text
  */
 const findEvent = (key, text) => {
-  const filterName = text.replace(/[^ぁ-んァ-ンー]/g, "");
-  const filterNameLen = filterName.length;
-
-  const value = { len: 0, data: undefined };
+  const textLen = text.length;
+  let data = { len: 0, value: null, isGt: false };
   const result = eventData[key].find((item) => {
-    if (filterNameLen > 3 && filterName === item.filterName) return item;
+    if (Math.abs(item.nameLength - textLen) > 3) return;
+    if (text === item.name) return item;
 
     const count = countCommonCharacters(item.name, text);
-    if (count > value.len && count > 3 && count > Math.ceil(item.name.length / 2)) {
-      value.len = count;
-      value.data = item;
+    if (count > data.len && count >= Math.floor(item.name.length / 2)) {
+      if (data.isGt) return item;
+      data.len = count;
+      data.value = item;
+      data.isGt = true;
     }
   });
 
-  return result || value.data;
+  return result || data.value;
 };
 
 /**
@@ -107,8 +107,12 @@ const formatText = (value) => {
   if (!eventIndex) {
     return [];
   }
+  const replaceText = replaces.reduce((result, [v1, v2]) => {
+    result = result.replaceAll(v1, v2);
+    return result;
+  }, text);
 
-  return [eventIndex.key, text];
+  return [eventIndex.key, replaceText];
 };
 
 const eventKeys = [
@@ -125,3 +129,5 @@ const eventKeys = [
     key: "character"
   }
 ];
+
+const replaces = [["①", "1"], ["...", "…"]];
