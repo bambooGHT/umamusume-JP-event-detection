@@ -19,12 +19,14 @@ const oldData = {
 export const getEventAndSkillData = (value) => {
   const [key, text] = formatText(value);
 
-  if (!key || !text) {
-    return { text: "", data: {} };
+  if (!key) {
+    oldData.text = "";
+    oldData.data = {};
+    return oldData;
   }
 
   if (oldData.text === text ||
-    (oldData.text.length > 3 && countCommonCharacters(oldData.text, text) >= oldData.text.length - 1)) {
+    (oldData.text.length > 3 && countCommonCharacters(oldData.text, text) >= oldData.text.length - 2)) {
     return oldData;
   }
 
@@ -55,8 +57,7 @@ const findCorrectedEvent = (key, text) => {
     return text === v || countCommonCharacters(v, text) >= v.length - 1;
   });
 
-  if (!value) return undefined;
-  return eventData[key].find(p => p.name === value[1]);
+  if (value) return eventData[key].find(p => p.name === value[1]);
 };
 
 /**
@@ -66,7 +67,8 @@ const findCorrectedEvent = (key, text) => {
 const extractEventSkills = (event) => {
   const skills = event.choices.reduce((result, value) => {
     value.t.match(/(?<=『).*?(?=』)/g)?.forEach((id) => {
-      if (umamusumeSkills[id]) result.add(umamusumeSkills[id]);
+      const value = umamusumeSkills[id];
+      if (value) result.add(value);
     });
     return result;
   }, new Set());
@@ -80,9 +82,10 @@ const extractEventSkills = (event) => {
  */
 const findEvent = (key, text) => {
   const textLen = text.length;
-  let data = { len: 0, value: null, isGt: false };
+  const data = { len: 0, value: null, isGt: false };
+
   const result = eventData[key].find((item) => {
-    if (Math.abs(item.nameLength - textLen) > 3) return;
+    if (Math.abs(item.nameLength - textLen) > 2) return;
     if (text === item.name) return item;
 
     const count = countCommonCharacters(item.name, text);
@@ -105,7 +108,7 @@ const formatText = (value) => {
   if (!value) return [];
 
   const [eventKey, text] = value.split("\n");
-  const eventIndex = eventKeys.find(p => countCommonCharacters(p.id, eventKey) > 2);
+  const eventIndex = eventKeys.find(p => countCommonCharacters(p.id, eventKey) > 3);
   if (!eventIndex) {
     return [];
   }
@@ -132,4 +135,7 @@ const eventKeys = [
   }
 ];
 
-const replaces = [["①", "1"], ["...", "…"]];
+const replaces = [
+  ["①", "1"], ["...", "…"],
+  ["“", `"`], ["”", `"`],
+];

@@ -20,15 +20,14 @@ export class DetectText {
    */
   init(videoElement, callback) {
     this.videoElement = videoElement;
-    const getImg = this._getImgFun(videoElement);
+    const canvas = this._getCanvasFun(videoElement);
     const { tesseractWorker } = this;
 
     this.callback = async () => {
-      const image = URL.createObjectURL(await getImg());
-      const { data: { text } } = await tesseractWorker.recognize(image);
-
-      callback(text.replaceAll(" ", ""));
-      URL.revokeObjectURL(image);
+      const { data: { text } } = await tesseractWorker.recognize(await canvas());
+      const tReplace = text.replaceAll(" ", "");
+      // console.log(tReplace);
+      callback(tReplace);
     };
   }
 
@@ -62,55 +61,53 @@ export class DetectText {
   }
   /** 
    * @param { HTMLVideoElement } videoElement 
-   * @returns { () => Promise<Blob> }
+   * @returns { () => Promise<HTMLCanvasElement> }
    */
-  _getImgFun(videoElement) {
+  _getCanvasFun(videoElement) {
     const canvas = document.createElement("canvas");
     const context = canvas.getContext("2d", { willReadFrequently: true });
     const { videoWidth: width, videoHeight: height } = videoElement;
-    const width1 = width + 90;
-    const height1 = 200;
-    const vWidth = width * 2.25;
-    const vHeight = height * 2.15;
-    const sx = width / 10 * 1.5;
-    const sy = (height - 35) / 10 * 1.84;
+    const sx = width * 0.151;
+    const sy = (height - 30) / 10 * 1.84;
+    const width1 = (width - sx) * 1.6;
+    const height1 = 200 * 1.5;
     canvas.width = width1;
     canvas.height = height1;
     // document.getElementById("event").appendChild(canvas);
 
+    context.scale(2.8, 2.5);
     const drawImage = () => {
       context.clearRect(0, 0, width1, height1);
-      context.drawImage(videoElement, sx, sy, width1, height, 0, 0, vWidth, vHeight);
+      context.drawImage(videoElement, sx, sy, width1, height1, 0, 0, width1, height1);
     };
 
     const processImageData = () => {
       const imageData = context.getImageData(0, 0, width1, height1);
       const data = imageData.data;
+
       for (let i = 0; i < data.length; i += 4) {
-        const grayscale = (data[i] + data[i + 1] + data[i + 2]) / 3;
-        const binaryValue = (255 - grayscale) * 5.5;
-        data[i] = binaryValue;
-        data[i + 1] = binaryValue;
-        data[i + 2] = binaryValue;
+        const brightness = 260 - ((data[i] + data[i + 1] + data[i + 2]) / 3);
+        data[i] = data[i + 1] = data[i + 2] = brightness * 4;
       }
+
       context.putImageData(imageData, 0, 0);
     };
 
     return () => {
       drawImage();
       processImageData();
-      return new Promise(res => canvas.toBlob((b) => res(b)));
+      return canvas;
     };
   }
 
   async _getWorker() {
     const { createWorker } = Tesseract;
     const worker = await createWorker({
-      langPath: "http://tessdata.projectnaptha.com/4.0.0"
+      langPath: "https://github.com/tesseract-ocr/tessdata/raw/3.00_best/"
     });
-
-    await worker.loadLanguage("jpn+eng");
-    await worker.initialize("jpn+eng");
+    const lang = "jpn";
+    await worker.loadLanguage(lang);
+    await worker.initialize(lang);
 
     return worker;
   };

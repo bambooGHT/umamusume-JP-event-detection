@@ -596,3 +596,8 @@ button {
   background-size: 100% 52%;
   background-repeat: no-repeat;
 }
+
+canvas {
+  position: relative;
+  z-index: 999999;
+}

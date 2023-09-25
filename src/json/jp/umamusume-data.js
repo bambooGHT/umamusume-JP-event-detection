@@ -5450,8 +5450,8 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "女帝と\"帝王\"",
-        "nameLength": 7,
+        "name": "\"女帝\"と\"帝王\"",
+        "nameLength": 9,
         "choices": [
           {
             "n": "ダンスゲーム",
@@ -5464,8 +5464,8 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "女帝と\"皇帝\"",
-        "nameLength": 7,
+        "name": "\"女帝\"と\"皇帝\"",
+        "nameLength": 9,
         "choices": [
           {
             "n": "君の武器で全てを魅了しよう！",
@@ -13466,8 +13466,8 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "女帝と\"帝王\"",
-        "nameLength": 7,
+        "name": "\"女帝\"と\"帝王\"",
+        "nameLength": 9,
         "choices": [
           {
             "n": "ダンスゲーム",
@@ -13480,8 +13480,8 @@ export const umamusumeData = {
         ]
       },
       {
-        "name": "女帝と\"皇帝\"",
-        "nameLength": 7,
+        "name": "\"女帝\"と\"皇帝\"",
+        "nameLength": 9,
         "choices": [
           {
             "n": "君の武器で全てを魅了しよう！",
@@ -66195,5 +66195,5 @@ export const umamusumeData = {
       ]
     }
   ],
-  "latestUpdateed": "2023.09.24"
+  "latestUpdateed": "2023.09.25"
 }
