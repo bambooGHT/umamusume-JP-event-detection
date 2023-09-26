@@ -81,11 +81,11 @@ const extractEventSkills = (event) => {
  * @param { string } text
  */
 const findEvent = (key, text) => {
-  const textLen = text.length;
+  const [min, max] = [text.length - 4, text.length + 3];
   const data = { len: 0, value: null, isGt: false };
 
   const result = eventData[key].find((item) => {
-    if (Math.abs(item.nameLength - textLen) > 2) return;
+    if (item.nameLength < min || item.nameLength > max) return;
     if (text === item.name) return item;
 
     const count = countCommonCharacters(item.name, text);
@@ -107,19 +107,23 @@ const findEvent = (key, text) => {
 const formatText = (value) => {
   if (!value) return [];
 
-  const [eventKey, text] = value.split("\n");
+  let [eventKey, text] = value.split("\n");
+  eventKey = replaceName(eventKey, replaceKeys);
   const eventIndex = eventKeys.find(p => countCommonCharacters(p.id, eventKey) > 3);
   if (!eventIndex) {
     return [];
   }
-  const replaceText = replaces.reduce((result, [v1, v2]) => {
-    result = result.replaceAll(v1, v2);
-    return result;
-  }, text);
+
+  const replaceText = replaceName(text, replaceValues);
 
   return [eventIndex.key, replaceText];
 };
-
+const replaceName = (text, replaces) => {
+  return replaces.reduce((result, [v1, v2]) => {
+    result = result.replaceAll(v1, v2);
+    return result;
+  }, text);
+};
 const eventKeys = [
   {
     id: "メインシナリオ",
@@ -135,7 +139,11 @@ const eventKeys = [
   }
 ];
 
-const replaces = [
-  ["①", "1"], ["...", "…"],
-  ["“", `"`], ["”", `"`],
+const replaceKeys = [
+  ["青", "育"], ["婦", "娘"], ["嬉", "娘"]
+];
+
+const replaceValues = [
+  ["①", "1"], ["...", "…"], [".", ""],
+  ["“", `"`], ["”", `"`], ["丿", "！"],
 ];

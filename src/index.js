@@ -29,7 +29,7 @@ export const initWindowAndDetectEvent = async () => {
   const updateData = (value) => {
     const { text, data } = getEventAndSkillData(value);
     updateEventAndSkillData(data);
-    updateCurrentRecognizeText(text || "");
+    updateCurrentRecognizeText(text);
   };
 
   detectText.init(videoElement, updateData);

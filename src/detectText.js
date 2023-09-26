@@ -67,15 +67,15 @@ export class DetectText {
     const canvas = document.createElement("canvas");
     const context = canvas.getContext("2d", { willReadFrequently: true });
     const { videoWidth: width, videoHeight: height } = videoElement;
-    const sx = width * 0.151;
-    const sy = (height - 30) / 10 * 1.84;
-    const width1 = (width - sx) * 1.6;
+    const sx = width * 0.152;
+    const sy = (height - 30) / 10 * 1.85;
+    const width1 = (width - sx) * 2.1;
     const height1 = 200 * 1.5;
     canvas.width = width1;
     canvas.height = height1;
     // document.getElementById("event").appendChild(canvas);
 
-    context.scale(2.8, 2.5);
+    context.scale(2.85, 2.7);
     const drawImage = () => {
       context.clearRect(0, 0, width1, height1);
       context.drawImage(videoElement, sx, sy, width1, height1, 0, 0, width1, height1);
@@ -87,7 +87,7 @@ export class DetectText {
 
       for (let i = 0; i < data.length; i += 4) {
         const brightness = 260 - ((data[i] + data[i + 1] + data[i + 2]) / 3);
-        data[i] = data[i + 1] = data[i + 2] = brightness * 4;
+        data[i] = data[i + 1] = data[i + 2] = brightness * 4.2;
       }
 
       context.putImageData(imageData, 0, 0);
@@ -96,7 +96,7 @@ export class DetectText {
     return () => {
       drawImage();
       processImageData();
-      return canvas;
+      return new Promise((res) => canvas.toBlob((blob) => res(blob)));
     };
   }
 
