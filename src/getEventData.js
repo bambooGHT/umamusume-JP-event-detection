@@ -82,7 +82,7 @@ const extractEventSkills = (event) => {
  */
 const findEvent = (key, text) => {
   const [min, max] = [text.length - 4, text.length + 3];
-  const data = { len: 0, value: null, isGt: false };
+  const data = { len: 0, value: null };
 
   const result = eventData[key].find((item) => {
     if (item.nameLength < min || item.nameLength > max) return;
@@ -90,10 +90,8 @@ const findEvent = (key, text) => {
 
     const count = countCommonCharacters(item.name, text);
     if (count > data.len && count >= Math.ceil(item.nameLength / 2)) {
-      if (data.isGt) return item;
       data.len = count;
       data.value = item;
-      data.isGt = true;
     }
   });
 

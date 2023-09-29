@@ -6,7 +6,7 @@ https://bambooght.github.io/umamusume-JP-event-detection/
 
 不准确的场合 可以自己在correct event中修正事件, 如果有5个以上修正的事件,可以提个issues,我做个整理
 
-由于长度判断在大于原文本的一半之内,如果没有选项时也匹配到了事件,请忽略
+由于长度判断在>=原文本的一半之内,没有选项时也可能会匹配到事件
 
 
 没意外会在游戏更新的当天之内更新数据

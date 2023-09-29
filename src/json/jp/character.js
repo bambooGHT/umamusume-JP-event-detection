@@ -1,5 +1,44 @@
 export const characters = [
   {
+    "name": "シンボリクリスエス(ハロウィン)",
+    "icon": "https://img.gamewith.jp/article_tools/uma-musume/gacha/i_143.png",
+    "adaptability": [
+      [
+        "中距離",
+        "長距離"
+      ],
+      [
+        "先行",
+        "差し"
+      ]
+    ],
+    "attrAddition": [
+      "<span class=\"icon-speed\"></span>+15%<br>",
+      "<span class=\"icon-power\"></span>+15%<br>"
+    ],
+    "rating": "7.8"
+  },
+  {
+    "name": "エアシャカール(ハロウィン)",
+    "icon": "https://img.gamewith.jp/article_tools/uma-musume/gacha/i_142.png",
+    "adaptability": [
+      [
+        "中距離",
+        "長距離"
+      ],
+      [
+        "差し",
+        "追込"
+      ]
+    ],
+    "attrAddition": [
+      "<span class=\"icon-stamina\"></span>+14%<br>",
+      "<span class=\"icon-power\"></span>+8%<br>",
+      "<span class=\"icon-wisdom\"></span>+8%<br>"
+    ],
+    "rating": "8"
+  },
+  {
     "name": "ケイエスミラクル",
     "icon": "https://img.gamewith.jp/article_tools/uma-musume/gacha/i_141.png",
     "adaptability": [
@@ -14,7 +53,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+15%<br>",
       "<span class=\"icon-guts\"></span>+15%<br>"
     ],
-    "rating": "9"
+    "rating": "9.1"
   },
   {
     "name": "サトノダイヤモンド(新衣装)",
@@ -33,7 +72,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+14%<br>",
       "<span class=\"icon-guts\"></span>+8%<br>"
     ],
-    "rating": "8.9"
+    "rating": "9"
   },
   {
     "name": "ゴールドシップ(新衣装)",
@@ -106,7 +145,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+8%<br>",
       "<span class=\"icon-wisdom\"></span>+14%<br>"
     ],
-    "rating": "8.1"
+    "rating": "8"
   },
   {
     "name": "シリウスシンボリ",
@@ -123,7 +162,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+20%<br>"
     ],
-    "rating": "8.1"
+    "rating": "8"
   },
   {
     "name": "カツラギエース",
@@ -142,7 +181,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+10%<br>",
       "<span class=\"icon-guts\"></span>+10%<br>"
     ],
-    "rating": "7.8"
+    "rating": "7.5"
   },
   {
     "name": "トーセンジョーダン(新衣装)",
@@ -217,7 +256,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "7.4"
+    "rating": "7.3"
   },
   {
     "name": "ニシノフラワー(新衣装)",
@@ -254,7 +293,7 @@ export const characters = [
     "attrAddition": [
       "<span class=\"icon-power\"></span>+30%<br>"
     ],
-    "rating": "7.6"
+    "rating": "7.5"
   },
   {
     "name": "ヒシミラクル",
@@ -274,7 +313,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+7%<br>",
       "<span class=\"icon-guts\"></span>+8%<br>"
     ],
-    "rating": "8.9"
+    "rating": "8.7"
   },
   {
     "name": "サクラバクシンオー(新衣装)",
@@ -293,7 +332,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+8%<br>",
       "<span class=\"icon-wisdom\"></span>+8%<br>"
     ],
-    "rating": "7.4"
+    "rating": "7.3"
   },
   {
     "name": "マチカネタンホイザ(新衣装)",
@@ -312,7 +351,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+10%<br>",
       "<span class=\"icon-power\"></span>+20%<br>"
     ],
-    "rating": "8.3"
+    "rating": "8.2"
   },
   {
     "name": "ネオユニヴァース",
@@ -329,7 +368,7 @@ export const characters = [
     "attrAddition": [
       "<span class=\"icon-wisdom\"></span>+30%<br>"
     ],
-    "rating": "8.4"
+    "rating": "8.5"
   },
   {
     "name": "サクラローレル",
@@ -366,7 +405,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+14%<br>",
       "<span class=\"icon-wisdom\"></span>+8%<br>"
     ],
-    "rating": "8.9"
+    "rating": "8.8"
   },
   {
     "name": "メジロアルダン(新衣装)",
@@ -385,7 +424,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+8%<br>",
       "<span class=\"icon-wisdom\"></span>+14%<br>"
     ],
-    "rating": "8.2"
+    "rating": "8.4"
   },
   {
     "name": "シンボリクリスエス",
@@ -440,7 +479,7 @@ export const characters = [
     "attrAddition": [
       "<span class=\"icon-speed\"></span>+30%<br>"
     ],
-    "rating": "7.2"
+    "rating": "7.4"
   },
   {
     "name": "ミスターシービー",
@@ -460,7 +499,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "9"
+    "rating": "9.1"
   },
   {
     "name": "シンコウウインディ",
@@ -516,7 +555,7 @@ export const characters = [
       "<span class=\"icon-guts\"></span>+8%<br>",
       "<span class=\"icon-wisdom\"></span>+8%<br>"
     ],
-    "rating": "8.2"
+    "rating": "8"
   },
   {
     "name": "ダイタクヘリオス",
@@ -574,7 +613,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+15%<br>",
       "<span class=\"icon-stamina\"></span>+15%<br>"
     ],
-    "rating": "8.9"
+    "rating": "9"
   },
   {
     "name": "キタサンブラック(正月)",
@@ -651,7 +690,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+20%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "8.4"
+    "rating": "8.3"
   },
   {
     "name": "ウオッカ(クリスマス)",
@@ -688,7 +727,7 @@ export const characters = [
       "<span class=\"icon-guts\"></span>+15%<br>",
       "<span class=\"icon-wisdom\"></span>+15%<br>"
     ],
-    "rating": "8.3"
+    "rating": "8.2"
   },
   {
     "name": "ナカヤマフェスタ",
@@ -726,7 +765,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+8%<br>",
       "<span class=\"icon-wisdom\"></span>+8%<br>"
     ],
-    "rating": "7.5"
+    "rating": "7.4"
   },
   {
     "name": "タマモクロス(新衣装)",
@@ -766,7 +805,7 @@ export const characters = [
       "<span class=\"icon-guts\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "8.6"
+    "rating": "8.5"
   },
   {
     "name": "アストンマーチャン",
@@ -898,7 +937,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+14%<br>",
       "<span class=\"icon-guts\"></span>+8%<br>"
     ],
-    "rating": "7"
+    "rating": "6.9"
   },
   {
     "name": "スマートファルコン(新衣装)",
@@ -917,7 +956,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+20%<br>",
       "<span class=\"icon-guts\"></span>+10%<br>"
     ],
-    "rating": "8.4"
+    "rating": "8.5"
   },
   {
     "name": "コパノリッキー",
@@ -937,7 +976,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+20%<br>"
     ],
-    "rating": "9.1"
+    "rating": "9"
   },
   {
     "name": "バンブーメモリー",
@@ -956,7 +995,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+10%<br>",
       "<span class=\"icon-guts\"></span>+10%<br>"
     ],
-    "rating": "7.6"
+    "rating": "7.2"
   },
   {
     "name": "水着ゴールドシップ",
@@ -974,7 +1013,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+20%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "7.9"
+    "rating": "8"
   },
   {
     "name": "水着メジロマックイーン",
@@ -1013,7 +1052,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "8.1"
+    "rating": "8"
   },
   {
     "name": "エアシャカール",
@@ -1031,7 +1070,7 @@ export const characters = [
     "attrAddition": [
       "<span class=\"icon-wisdom\"></span>+30%<br>"
     ],
-    "rating": "8.1"
+    "rating": "8"
   },
   {
     "name": "メジロドーベル(新衣装)",
@@ -1066,7 +1105,7 @@ export const characters = [
     "attrAddition": [
       "<span class=\"icon-power\"></span>+30%<br>"
     ],
-    "rating": "9"
+    "rating": "8.9"
   },
   {
     "name": "スイープトウショウ",
@@ -1085,7 +1124,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+10%<br>",
       "<span class=\"icon-power\"></span>+20%<br>"
     ],
-    "rating": "9.1"
+    "rating": "9"
   },
   {
     "name": "イナリワン",
@@ -1103,7 +1142,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+10%<br>",
       "<span class=\"icon-power\"></span>+20%<br>"
     ],
-    "rating": "7.4"
+    "rating": "7.3"
   },
   {
     "name": "ファインモーション(新衣装)",
@@ -1121,7 +1160,7 @@ export const characters = [
       "<span class=\"icon-guts\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+20%<br>"
     ],
-    "rating": "8.3"
+    "rating": "8.4"
   },
   {
     "name": "カレンチャン(新衣装)",
@@ -1233,7 +1272,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+20%<br>",
       "<span class=\"icon-guts\"></span>+10%<br>"
     ],
-    "rating": "8"
+    "rating": "7.8"
   },
   {
     "name": "ニシノフラワー",
@@ -1272,7 +1311,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+14%<br>",
       "<span class=\"icon-wisdom\"></span>+8%<br>"
     ],
-    "rating": "8"
+    "rating": "7.9"
   },
   {
     "name": "セイウンスカイ(新衣装)",
@@ -1291,7 +1330,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+8%<br>",
       "<span class=\"icon-guts\"></span>+14%<br>"
     ],
-    "rating": "9.2"
+    "rating": "9.3"
   },
   {
     "name": "メジロブライト",
@@ -1329,7 +1368,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+15%<br>",
       "<span class=\"icon-wisdom\"></span>+15%<br>"
     ],
-    "rating": "8.5"
+    "rating": "8.6"
   },
   {
     "name": "マチカネタンホイザ",
@@ -1346,7 +1385,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+20%<br>",
       "<span class=\"icon-guts\"></span>+10%<br>"
     ],
-    "rating": "8.3"
+    "rating": "8.4"
   },
   {
     "name": "キタサンブラック",
@@ -1364,7 +1403,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+20%<br>",
       "<span class=\"icon-stamina\"></span>+10%<br>"
     ],
-    "rating": "8.8"
+    "rating": "8.9"
   },
   {
     "name": "アドマイヤベガ",
@@ -1381,7 +1420,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+10%<br>",
       "<span class=\"icon-power\"></span>+20%<br>"
     ],
-    "rating": "9.1"
+    "rating": "9"
   },
   {
     "name": "メジロアルダン",
@@ -1418,7 +1457,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+8%<br>",
       "<span class=\"icon-wisdom\"></span>+14%<br>"
     ],
-    "rating": "8.8"
+    "rating": "8.9"
   },
   {
     "name": "ミホノブルボン(新衣装)",
@@ -1455,7 +1494,7 @@ export const characters = [
       "<span class=\"icon-guts\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "9.3"
+    "rating": "9.2"
   },
   {
     "name": "テイエムオペラオー(新衣装)",
@@ -1514,7 +1553,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+20%<br>",
       "<span class=\"icon-power\"></span>+10%<br>"
     ],
-    "rating": "7.6"
+    "rating": "7.4"
   },
   {
     "name": "ファインモーション",
@@ -1551,7 +1590,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+12%<br>",
       "<span class=\"icon-wisdom\"></span>+6%<br>"
     ],
-    "rating": "7.7"
+    "rating": "8.1"
   },
   {
     "name": "オグリキャップ(クリスマス)",
@@ -1571,7 +1610,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+15%<br>",
       "<span class=\"icon-stamina\"></span>+15%<br>"
     ],
-    "rating": "8"
+    "rating": "7.9"
   },
   {
     "name": "メジロドーベル",
@@ -1589,7 +1628,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+20%<br>"
     ],
-    "rating": "9.5"
+    "rating": "9.4"
   },
   {
     "name": "トーセンジョーダン",
@@ -1607,7 +1646,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+10%<br>",
       "<span class=\"icon-guts\"></span>+10%<br>"
     ],
-    "rating": "7.3"
+    "rating": "7.4"
   },
   {
     "name": "ゴールドシチー(新衣装)",
@@ -1645,7 +1684,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+14%<br>",
       "<span class=\"icon-wisdom\"></span>+8%<br>"
     ],
-    "rating": "9.2"
+    "rating": "9"
   },
   {
     "name": "マンハッタンカフェ",
@@ -1662,7 +1701,7 @@ export const characters = [
     "attrAddition": [
       "<span class=\"icon-stamina\"></span>+30%<br>"
     ],
-    "rating": "8.4"
+    "rating": "8.5"
   },
   {
     "name": "カワカミプリンセス",
@@ -1679,7 +1718,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+10%<br>",
       "<span class=\"icon-guts\"></span>+20%<br>"
     ],
-    "rating": "8.5"
+    "rating": "8.4"
   },
   {
     "name": "スーパークリーク(ハロウィン)",
@@ -1698,7 +1737,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+8%<br>",
       "<span class=\"icon-guts\"></span>+8%<br>"
     ],
-    "rating": "9.1"
+    "rating": "9.2"
   },
   {
     "name": "ライスシャワー(ハロウィン)",
@@ -1776,7 +1815,7 @@ export const characters = [
       "<span class=\"icon-guts\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "7.7"
+    "rating": "7.6"
   },
   {
     "name": "エイシンフラッシュ",
@@ -1794,7 +1833,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+20%<br>"
     ],
-    "rating": "9.6"
+    "rating": "9.5"
   },
   {
     "name": "メイショウドトウ",
@@ -1829,7 +1868,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+15%<br>",
       "<span class=\"icon-wisdom\"></span>+15%<br>"
     ],
-    "rating": "9.3"
+    "rating": "9.2"
   },
   {
     "name": "水着スペシャルウィーク",
@@ -1849,7 +1888,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+10%<br>",
       "<span class=\"icon-guts\"></span>+10%<br>"
     ],
-    "rating": "8.4"
+    "rating": "8.5"
   },
   {
     "name": "ゴールドシチー",
@@ -1866,7 +1905,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+10%<br>",
       "<span class=\"icon-guts\"></span>+20%<br>"
     ],
-    "rating": "6.7"
+    "rating": "6.5"
   },
   {
     "name": "フジキセキ",
@@ -1883,7 +1922,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+20%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "7"
+    "rating": "6.9"
   },
   {
     "name": "グラスワンダー(新衣装)",
@@ -1900,7 +1939,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+15%<br>",
       "<span class=\"icon-wisdom\"></span>+15%<br>"
     ],
-    "rating": "8.5"
+    "rating": "8.4"
   },
   {
     "name": "エルコンドルパサー(新衣装)",
@@ -1918,7 +1957,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+15%<br>",
       "<span class=\"icon-guts\"></span>+15%<br>"
     ],
-    "rating": "7.1"
+    "rating": "7"
   },
   {
     "name": "ヒシアマゾン",
@@ -1936,7 +1975,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+20%<br>",
       "<span class=\"icon-guts\"></span>+10%<br>"
     ],
-    "rating": "8.6"
+    "rating": "8.8"
   },
   {
     "name": "セイウンスカイ",
@@ -1993,7 +2032,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "8.6"
+    "rating": "8.4"
   },
   {
     "name": "ナリタブライアン",
@@ -2012,7 +2051,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+10%<br>",
       "<span class=\"icon-stamina\"></span>+20%<br>"
     ],
-    "rating": "9"
+    "rating": "9.1"
   },
   {
     "name": "スマートファルコン",
@@ -2047,7 +2086,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+10%<br>",
       "<span class=\"icon-guts\"></span>+20%<br>"
     ],
-    "rating": "7.6"
+    "rating": "7.5"
   },
   {
     "name": "カレンチャン",
@@ -2064,7 +2103,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+10%<br>",
       "<span class=\"icon-power\"></span>+20%<br>"
     ],
-    "rating": "6.6"
+    "rating": "6.7"
   },
   {
     "name": "メジロマックイーン(新衣装)",
@@ -2083,7 +2122,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "8.6"
+    "rating": "8.5"
   },
   {
     "name": "トウカイテイオー(新衣装)",
@@ -2119,7 +2158,7 @@ export const characters = [
       "<span class=\"icon-guts\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+20%<br>"
     ],
-    "rating": "8.6"
+    "rating": "8.7"
   },
   {
     "name": "ミホノブルボン",
@@ -2172,7 +2211,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+20%<br>",
       "<span class=\"icon-guts\"></span>+10%<br>"
     ],
-    "rating": "8.5"
+    "rating": "8.6"
   },
   {
     "name": "ナイスネイチャ",
@@ -2190,7 +2229,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+20%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "9.3"
+    "rating": "9.4"
   },
   {
     "name": "マチカネフクキタル",
@@ -2208,7 +2247,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+20%<br>",
       "<span class=\"icon-power\"></span>+10%<br>"
     ],
-    "rating": "8.2"
+    "rating": "8.3"
   },
   {
     "name": "ハルウララ",
@@ -2226,7 +2265,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+10%<br>",
       "<span class=\"icon-guts\"></span>+20%<br>"
     ],
-    "rating": "5.6"
+    "rating": "5.5"
   },
   {
     "name": "サクラバクシンオー",
@@ -2278,7 +2317,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+20%<br>",
       "<span class=\"icon-guts\"></span>+10%<br>"
     ],
-    "rating": "8.6"
+    "rating": "8.8"
   },
   {
     "name": "メジロライアン",
@@ -2296,7 +2335,7 @@ export const characters = [
       "<span class=\"icon-power\"></span>+20%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "6.9"
+    "rating": "6.7"
   },
   {
     "name": "スーパークリーク",
@@ -2314,7 +2353,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+20%<br>"
     ],
-    "rating": "9.2"
+    "rating": "9.3"
   },
   {
     "name": "マヤノトップガン",
@@ -2351,7 +2390,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+10%<br>",
       "<span class=\"icon-power\"></span>+20%<br>"
     ],
-    "rating": "9"
+    "rating": "9.1"
   },
   {
     "name": "エルコンドルパサー",
@@ -2427,7 +2466,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+10%<br>",
       "<span class=\"icon-power\"></span>+20%<br>"
     ],
-    "rating": "8.9"
+    "rating": "9"
   },
   {
     "name": "ゴールドシップ",
@@ -2445,7 +2484,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+20%<br>",
       "<span class=\"icon-power\"></span>+10%<br>"
     ],
-    "rating": "7.2"
+    "rating": "7.3"
   },
   {
     "name": "ライスシャワー",
@@ -2463,7 +2502,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+10%<br>",
       "<span class=\"icon-guts\"></span>+20%<br>"
     ],
-    "rating": "6.2"
+    "rating": "6.1"
   },
   {
     "name": "シンボリルドルフ",
@@ -2482,7 +2521,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+20%<br>",
       "<span class=\"icon-guts\"></span>+10%<br>"
     ],
-    "rating": "9.3"
+    "rating": "9.2"
   },
   {
     "name": "メジロマックイーン",
@@ -2500,7 +2539,7 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+20%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "8.9"
+    "rating": "8.8"
   },
   {
     "name": "タイキシャトル",
@@ -2519,7 +2558,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+20%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "9.2"
+    "rating": "9.1"
   },
   {
     "name": "オグリキャップ",
@@ -2539,7 +2578,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+20%<br>",
       "<span class=\"icon-power\"></span>+10%<br>"
     ],
-    "rating": "9.3"
+    "rating": "9.2"
   },
   {
     "name": "マルゼンスキー",
@@ -2556,7 +2595,7 @@ export const characters = [
       "<span class=\"icon-speed\"></span>+10%<br>",
       "<span class=\"icon-wisdom\"></span>+20%<br>"
     ],
-    "rating": "9.6"
+    "rating": "9.5"
   },
   {
     "name": "トウカイテイオー",
@@ -2610,6 +2649,6 @@ export const characters = [
       "<span class=\"icon-stamina\"></span>+20%<br>",
       "<span class=\"icon-wisdom\"></span>+10%<br>"
     ],
-    "rating": "8.4"
+    "rating": "8.5"
   }
 ]

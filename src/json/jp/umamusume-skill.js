@@ -1,27 +1,4 @@
 export const umamusumeSkills = {
-  "月影円刃": {
-    "name": "月影円刃",
-    "tactics": "追込",
-    "distance": "-",
-    "racecourse": "-",
-    "needSkillPoint": "508",
-    "time": "3",
-    "coolTime": "500",
-    "effect": "コーナーで速度が上がる＜作戦・追込＞",
-    "condition": "【追込】全コーナーのランダムな位置",
-    "rank1": "無し",
-    "rank2": "無し",
-    "values": [
-      {
-        "type": "目標速度アップ",
-        "value": "0.35",
-        "target": "自分",
-        "targetRange": "-"
-      }
-    ],
-    "rarity": 2,
-    "iconId": 20012
-  },
   "右回り◎": {
     "name": "右回り◎",
     "tactics": "-",
@@ -7396,6 +7373,29 @@ export const umamusumeSkills = {
     ],
     "rarity": 1,
     "iconId": 20011
+  },
+  "月影円刃": {
+    "name": "月影円刃",
+    "tactics": "追込",
+    "distance": "-",
+    "racecourse": "-",
+    "needSkillPoint": "508",
+    "time": "3",
+    "coolTime": "500",
+    "effect": "コーナーで速度が上がる＜作戦・追込＞",
+    "condition": "【追込】全コーナーのランダムな位置",
+    "rank1": "無し",
+    "rank2": "無し",
+    "values": [
+      {
+        "type": "目標速度アップ",
+        "value": "0.35",
+        "target": "自分",
+        "targetRange": "-"
+      }
+    ],
+    "rarity": 2,
+    "iconId": 20012
   },
   "視界良好！異常なし！": {
     "name": "視界良好！異常なし！",
